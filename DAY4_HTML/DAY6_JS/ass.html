@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required min="1" max="100">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="userDetails" style="display: none;">
+        <h2>User Details:</h2>
+        <p id="nameDisplay"></p>
+        <p id="emailDisplay"></p>
+        <p id="phoneDisplay"></p>
+        <p id="ageDisplay"></p>
+        <!-- <p id="passwordDisplay"></p> -->
+    </div>
+
+    <script src="scr.js"></script>
+</body>
+</html>

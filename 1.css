@@ -1,0 +1,58 @@
+/* *p{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+} */
+
+
+
+/* div{
+   
+    background-color: aquamarine;
+    
+    width:fit-content;
+    text-align: center;
+    margin:auto;
+
+} */
+
+ .btn{
+    background-color: #04AA6D !important;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+}
+    
+
+.btn-big{
+    font-size: 20px;
+    background-color: green;
+    color:white;
+    border-radius: 0.5em;
+    width: fit-content;
+    margin: 0.4em 1em;
+ 
+    padding: 4px 8px;  
+  
+    border: none;
+}
+  
+
+.btn-small{
+    font-size: 18px;
+    background-color: green;
+    color:white;
+    border-radius: 0.5em;
+    width: fit-content;
+    margin: 0.4em 1em;
+    
+    padding: 3px 7px;  
+  
+    border: none;
+}
+    /*agr 6em likhemenge to font change krenge to sb adjust krega khud se*/
+
+
+
+

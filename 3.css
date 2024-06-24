@@ -1,0 +1,18 @@
+ li>h3{
+    color:blue;
+}
+li h3{
+    color:blue;
+}
+
+ol>li>h3{
+    color:brown;
+}
+
+h3{
+    color:blue;
+}
+
+h3>li{
+    color:yellow;
+}

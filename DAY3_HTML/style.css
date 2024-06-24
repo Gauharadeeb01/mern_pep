@@ -1,0 +1,90 @@
+.btn{
+    display:block;
+    background-color: #04AA6D !important;
+   
+    font-size: 16px;
+    padding: 0.4em 1em;
+    border-radius: 0.5em;
+    color:black;
+    width:fit-content;
+    border:none;
+    margin:10px auto;
+    opacity:0.8;
+    transition:scale 300ms ease;
+ 
+}
+
+.btn:hover {
+    background-color: blue;
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.2); 
+}
+
+ul{
+    background-color: yellow;
+}
+li:last-child{
+    color:blue;
+}
+li:nth-child(2){    
+    color:red;
+}
+
+p:first-of-type{
+    color:rgb(255, 0, 174);
+}
+h3:after{
+    content: "**";
+}
+
+
+.child{
+    background-color: orange;
+    border: 1px solid black;
+    min-width: 200px;
+}
+
+.search{
+    flex-grow:1;
+    flex-shrink:1;
+}
+
+.child2{
+    flex-grow:2;
+}
+
+
+.child {
+    background-color: aqua;
+    border:1px solid gray;
+ 
+  }
+
+.parent{
+   /* background-color: aqua;*/
+   /* display: flex; */     /*ye ek linbe me kr dete h */
+   /* flex-wrap: wrap;   /* ye agr screen small krenge to usko wrap krega  */
+    
+   
+    background-color: yellow;
+    row-gap: 10px;
+    column-gap: 20px;
+
+    height:500px;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-auto-rows: 100px;
+    justify-content: center;
+    align-content:center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ 
+  
